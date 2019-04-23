@@ -34,6 +34,7 @@ export default {
   components: {},
 
   mounted() {
+    console.log(0);
     this.ADD("DDDDDD");
   }
 };
