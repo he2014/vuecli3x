@@ -6,3 +6,11 @@
     name: 'werw'
   }
 </script>
+    <div> error</div>
+<script>
+    export default {
+        name: "werw"
+
+    }
+</script>
+

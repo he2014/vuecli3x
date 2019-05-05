@@ -1,8 +1,12 @@
 <template>
   <div id="app">
+<<<<<<< HEAD
     <!-- <img alt="Vue logo" src="./assets/logo.png" v-on="{click:fun,mouseleave:func,mouseenter:fune}"> -->
     <!-- <div>{{getTodoById}}</div> -->
 
+=======
+    <img alt="Vue logo" src="./assets/logo.png">
+>>>>>>> df4e7e4... first1
     <!-- <img alt="dd" src="/image/logo.png"> -->
     <!-- <AsyncComponent msg="Welcome to Your Vue.js App" /> -->
     <router-view></router-view>
@@ -10,6 +14,7 @@
 </template>
 
 <script>
+<<<<<<< HEAD
 import { mapActions, mapGetters, mapMutations } from "vuex";
 
 export default {
@@ -50,4 +55,23 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+=======
+  export default {
+    name: 'app',
+
+    components: {}
+  }
+</script>
+
+<style>
+  #app {
+    width: 100%;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+  }
+>>>>>>> df4e7e4... first1
 </style>

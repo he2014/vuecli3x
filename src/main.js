@@ -3,10 +3,13 @@ import App from './App.vue'
 //添加
 import '@babel/polyfill'
 import router from './router'
+<<<<<<< HEAD
 import store from './stroe'
 // import { resolve } from 'url';
 // import { resolve } from 'url';
 // import { resolve } from '_uri-js@4.2.2@uri-js';
+=======
+>>>>>>> df4e7e4... first1
 
 Vue.config.productionTip = false
 let com = [
@@ -18,6 +21,7 @@ com.forEach(item => {
 })
 new Vue({
   router,
+<<<<<<< HEAD
   store,
   render: h => h(App)
 }).$mount('#app')
@@ -31,3 +35,7 @@ document.addEventListener('visibilitychange', function() {
     document.title = '标题一'
   }
 })
+=======
+  render: h => h(App),
+}).$mount('#app')
+>>>>>>> df4e7e4... first1
