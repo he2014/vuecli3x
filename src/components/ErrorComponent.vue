@@ -1,9 +1,8 @@
 <template>
-    <div> error</div>
+  <div>error</div>
 </template>
 <script>
-    export default {
-        name: "werw"
-
-    }
+  export default {
+    name: 'werw'
+  }
 </script>

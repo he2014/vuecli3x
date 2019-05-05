@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" v-on="{click:fun,mouseleave:func,mouseenter:fune}">
-    <div>{{getTodoById}}</div>
+    <!-- <img alt="Vue logo" src="./assets/logo.png" v-on="{click:fun,mouseleave:func,mouseenter:fune}"> -->
+    <!-- <div>{{getTodoById}}</div> -->
 
     <!-- <img alt="dd" src="/image/logo.png"> -->
     <!-- <AsyncComponent msg="Welcome to Your Vue.js App" /> -->
@@ -34,7 +34,7 @@ export default {
   components: {},
 
   mounted() {
-    console.log(0);
+    //console.log(0);
     this.ADD("DDDDDD");
   }
 };
